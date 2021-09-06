@@ -47,7 +47,6 @@
   <target name="dist" depends="compile">
     <antcall target="jar" />
     <antcall target="src-jar" />
-    <antcall target="doc-jar" />
     <ant inheritAll="false" dir="${src.dir}/com/google/typography/font/sfntly/sample" />
     <ant inheritAll="false" dir="${src.dir}/com/google/typography/font/tools/conversion" />
     <ant inheritAll="false" dir="${src.dir}/com/google/typography/font/tools/fontinfo" />
